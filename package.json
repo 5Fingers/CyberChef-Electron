@@ -1,0 +1,30 @@
+{
+  "name": "cyberchefelectron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "5Fingers",
+  "license": "ISC",
+  "build": {
+    "appId": "cyberchefelectron",
+    "extraFiles": {
+      "from": "./build",
+      "to": "./dist"
+    },
+    "win": {
+      "icon" : "build/icon.ico",
+      "target": ["portable"]
+    },
+    "mac": {
+      "icon" : "build/icon500.png",
+      "target": ["dmg"]
+    }
+  },
+  "devDependencies": {
+    "electron": "^20.0.0"
+  }
+}
