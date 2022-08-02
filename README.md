@@ -34,5 +34,4 @@ npm install
 Using npx rather than npm will prevent electron-builder to be installed as a dependency!
 
 ## Acknowledgments
-To the amazing guys who developed CyberChef (https://github.com/gchq/CyberChef) and of course to everyone who <br>
-continues to support this amazing project.
+To the amazing guys who developed CyberChef (https://github.com/gchq/CyberChef) <br> and of course to everyone who continues to support this amazing project.
