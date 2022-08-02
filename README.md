@@ -10,7 +10,7 @@ That's why I created an electron version for CyberChef so that it can be run as 
 ## Usage
 * Clone this repo:
 ```
-git clone https://github.com
+git clone https://github.com/5Fingers/CyberChef-Electron.git
 ```
 * Open the folder and run the command:
 ```
@@ -28,6 +28,7 @@ npm install
 * Run the portable file and Enjoy :)
 
 ## Screenshots
+![Screen Shot 2022-08-02 at 18 25 11](https://user-images.githubusercontent.com/6413401/182414174-df6a06e0-4115-42ca-927d-0e4697831baa.png)
 
 ## Note
 Using npx rather than npm will prevent electron-builder to be installed as a dependency!
